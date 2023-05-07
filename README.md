@@ -1,4 +1,6 @@
-# askiiart/marlin-auto-animation
+# marlin-auto-animation
 
-1. Specify the video path (must already be 5 fps) in `animator.py`
+Automatically make an animated `_Bootscreen.h` from a video.
+
+1. Specify the video path (`video = /path/to/video.mp4`) in `animator.py`
 2. Run `python3 animator.py`

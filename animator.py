@@ -1,7 +1,7 @@
 import os
 
 output = './_Bootscreen.h'
-video = '/home/ben/Videos/bad_apple_5fps.mp4'
+video = '/path/to/video.mp4'
 
 # Make video into xbm files
 os.mkdir('temp')
@@ -68,4 +68,4 @@ for line in end_of_ending:
     f.write(line + '\n')
 f.close()
 
-#os.system('rm -r temp/')
+os.system('rm -r temp/')

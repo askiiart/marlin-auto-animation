@@ -28,7 +28,7 @@ for filename in filenames:
     os.system(f'convert temp/pngs/{filename}.png temp/xbms/{filename}.xbm')
 
 # Make some pngs for debugging
-debug = True
+debug = False
 if debug:
     from random import random
     os.mkdir('temp/debug_pngs')
